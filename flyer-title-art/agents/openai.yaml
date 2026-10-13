@@ -1,0 +1,4 @@
+interface:
+  display_name: "Títulos de impacto para flyers"
+  short_description: "Tipografía creativa 3D con dirección de arte"
+  default_prompt: "Usa $flyer-title-art para crear un título visual de discoteca con concepto, material y composición propios."
