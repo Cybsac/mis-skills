@@ -1,15 +1,19 @@
 ---
 name: flyer-title-art
-description: Crear títulos visuales para flyers de discotecas, fiestas y eventos con lettering creativo, tipografía 3D y dirección de arte conceptual. Usar para títulos renderizados, letras con materiales, propuestas tipográficas, prompts y correcciones de resultados tipo WordArt. No activar para texto corriente ni crear un flyer completo salvo petición explícita.
+description: Crear títulos principales 3D de alto impacto para flyers de discotecas, fiestas y eventos, con lettering protagonista, materiales y construcción conceptual. Usar para renders, propuestas, prompts y correcciones; excluir módulos de agendas semanales, texto corriente y flyers completos salvo petición explícita.
 ---
 
 # Títulos de impacto para flyers
 
-Construir un objeto tipográfico con identidad, significado y materia. Diseñar la silueta antes de aplicar acabados.
+Construir el título protagonista del flyer: presencia visual absoluta dentro del espacio acordado, identidad, significado, materia y volumen. El 3D es la dirección predeterminada y una fortaleza central, no un acabado opcional añadido al final. Diseñar silueta y letra antes de construir profundidad y luz. Alto impacto no permite sacrificar lectura ni tapar contenido autorizado.
+
+Esta skill es independiente de `party-agenda-titles`, dedicada a tarjetas semanales planas. No trasladar aquí la prohibición de 3D de las agendas ni actualizar aquella skill al trabajar esta.
 
 ## Recursos
 
 Leer `references/visual-language.md` para extraer principios y seleccionar familias; inspeccionar `assets/title-reference.png` y `assets/title-reference-02.png` cuando se necesite la referencia visual. Leer `references/prompt-recipes.md` antes de generar y `references/quality-gates.md` antes de aprobar. Usar `references/evaluation-cases.md` para validar casos nuevos.
+
+Para la dirección 3D protagonista y las cinco referencias ampliadas, leer [protagonismo-3d.md](references/protagonismo-3d.md) e inspeccionar sus imágenes cuando sean relevantes. Extraer principios, no copiar sus textos ni elementos ajenos al título.
 
 ## 1. Definir el encargo
 
@@ -25,7 +29,7 @@ Tratar las referencias como evidencia de calidad y amplitud, no como menú cerra
 
 Antes de ejecutar, construir internamente al menos tres rutas plausibles y estructuralmente distintas. Compararlas por adecuación al encargo, legibilidad, fuerza de silueta, coherencia física, originalidad y utilidad. Elegir una sin mostrar razonamiento interno extenso; comunicar solo la dirección elegida y su razón breve. No generar tres imágenes salvo que el usuario lo solicite.
 
-Explorar de forma independiente familia de letra, arquitectura, materia, soporte, luz y gesto. Combinar decisiones mediante una idea rectora, no por azar. Permitir una solución plana o impresa si supera a una 3D y el usuario no exige volumen. Si exige 3D, respetarlo sin imponer un único material. Mantener restricciones duras de texto, público, formato y marca.
+Explorar de forma independiente familia de letra, arquitectura, materia, soporte, luz y gesto. Combinar mediante una idea rectora, no por azar. Resolver el protagonista en 3D por defecto: sólido, inflable, tallado, tejido, luminoso, ensamblado u otra construcción pertinente. Encabezados, conectores o gestos secundarios pueden ser planos si refuerzan el contraste. Un título totalmente plano requiere que el encargo lo pida o autorice; no sustituir silenciosamente el volumen solicitado. Mantener restricciones de texto, público, formato y marca.
 
 Revisar las rutas visibles de esta conversación o proyecto para detectar repetición. Evitar reutilizar por inercia el mismo cromo, script superpuesto, bloque de dos líneas o encabezado pequeño. Cambiar al menos dos decisiones estructurales cuando se pide variedad. Si una serie requiere identidad común, fijar dos o tres invariantes pertinentes —familia, luz, paleta o gesto— y variar el resto. Si no hay historial disponible, no afirmar que una propuesta es inédita respecto de trabajos no vistos.
 
@@ -56,7 +60,7 @@ Evitar WordArt por construcción: no hacer del bisel uniforme, degradado genéri
 
 ### Criterios ampliados del segundo collage
 
-Elegir primero una familia de letras, no solo un material: blackletter para tensión dramática, serif de alto contraste para relato cinematográfico, grotesca angular para energía, condensada para frases compactas y script para gesto. No imponer 3D: impresión en malla, placas y tubos luminosos pueden tener más criterio que una extrusión genérica.
+Elegir primero una familia de letras, no solo un material: blackletter, serif, grotesca angular, condensada o script son rutas posibles, nunca asociaciones obligatorias. Construir el volumen según esa geometría. El 3D no equivale a extrusión genérica: tubos, marquesinas, inflables o capas ensambladas tienen lógica propia. Impresión en malla y placas pueden funcionar como apoyo secundario, sin sustituir el protagonista tridimensional.
 
 Usar contraste deliberado de dos voces: encabezado informativo sobrio + protagonista expresivo, o bloque rígido + script gestual. Ajustar ópticamente espaciado y líneas; permitir que la palabra dominante determine la silueta. Integrar el título con un soporte concreto cuando aporte concepto: panel de malla, rótulo tubular, pared, tela o placa. En un recurso aislado, incluir solo soporte autorizado, sin copiar el escenario del collage.
 
@@ -79,6 +83,8 @@ No prometer fuentes licenciadas, capas, vectores, alfa, dimensiones o coordenada
 Inspeccionar cada salida y aplicar puertas de calidad. Corregir primero texto y lectura, después geometría, material y detalles. Reintentar con cambio específico conservando lo aprobado. Ante fallos repetidos, cambiar método si está permitido o explicar el límite sin reiterar el mismo prompt.
 
 Para otra opción, cambiar al menos dos decisiones estructurales: familia, arquitectura, material, metáfora o soporte. Para más impacto, mejorar escala, silueta y contraste antes de adornar. Para menos WordArt, reconstruir jerarquía, geometría y materia.
+
+Ante «cambiar estilo por completo», renovar familia/arquitectura y lógica de construcción del volumen, además de material o luz. No conservar la misma letra biselada y recolorearla. En tandas de títulos distintos, evitar terminar todo en crema/cobre/cromo por inercia: evaluar cada paleta sobre su flyer y distinguir identidad cromática cuando el encargo lo admita. Una variante solo de tonos conserva la geometría si eso es lo solicitado.
 
 ## Entrega
 

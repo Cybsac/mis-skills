@@ -20,3 +20,9 @@
 | Tres títulos de una misma campaña | Invariantes claras y diferencias estructurales compatibles |
 | MAREA ALTA sin agua, gel ni hielo | Explorar arquitectura o contexto sin asociación literal obligatoria |
 | Genera una sola imagen, decide tú | Comparar rutas internamente y ejecutar una sin exigir elección |
+| Título principal sin especificar técnica | Protagonista 3D de alta presencia, no tarjeta de agenda ni sustitución plana |
+| Tres títulos para fondos de colores distintos | Contraste adaptado y paletas diferenciadas cuando corresponda, no todos crema/cobre por inercia |
+| Cambia estilo por completo | Cambiar familia/arquitectura y construcción del volumen, además de material o luz |
+| Inflable como referencia RESACA | Uniones y tensión coherentes, contraformas abiertas, sin copiar personaje |
+| Título aislado desde referencia parcialmente tapada | Palabra completa, sin incorporar figuras que ocluyen letras |
+| Variante clara del mismo título | Conservar geometría aprobada y modificar tonos según pedido, contraste y alfa revisados |

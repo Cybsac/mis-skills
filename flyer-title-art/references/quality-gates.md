@@ -21,4 +21,8 @@ Priorizar texto/formato → lectura/jerarquía → geometría → material/luz �
 
 ## Controles adicionales
 
+El protagonista debe tener presencia tridimensional clara por defecto y dominar el espacio previsto. No confundir relieve con bisel genérico: comprobar construcción reconocible y materia coherente. Un título plano solo satisface el encargo cuando fue pedido o autorizado. Revisar contraste sobre el fondo previsto y evitar uniformar una tanda en la misma paleta sin motivo.
+
+En salida aislada, las letras deben estar completas aunque la referencia montada tenga objetos por delante. Inspeccionar transparencia en perímetro, espacios internos y remates; canal alfa presente no demuestra ausencia de velo, sombra externa o halo residual.
+
 Verificar que la familia tipográfica sea reconocible por su geometría, no solo por textura. En neón, inspeccionar continuidad, grosor y separación de tubos. En serif/blackletter, comprobar que remates y trazos finos no se pierdan. En títulos apilados, comprobar ritmo óptico de líneas y no solo alineación matemática. En scripts, verificar conexiones legibles y ausencia de cruces que cambien palabras. En títulos integrados, comprobar contacto con soporte y luz común. Rechazar mezclas gratuitas de demasiadas voces tipográficas.

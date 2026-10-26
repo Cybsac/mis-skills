@@ -1,4 +1,4 @@
 interface:
   display_name: "Títulos de impacto para flyers"
-  short_description: "Tipografía creativa 3D con dirección de arte"
-  default_prompt: "Usa $flyer-title-art para crear un título visual de discoteca con concepto, material y composición propios."
+  short_description: "Títulos principales 3D con presencia y concepto"
+  default_prompt: "Usa $flyer-title-art para crear un título principal 3D de alto impacto con lettering, volumen y material propios del show."
